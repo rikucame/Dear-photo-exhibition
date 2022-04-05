@@ -23,7 +23,13 @@ h2 {
 .access,
 .dates {
   width: 90%;
-  margin: 45px 5%;
+  margin: 90px 5%;
+}
+
+footer {
+  padding: 3px 0;
+  background-color: rgb(217, 225, 233);
+  text-align: center;
 }
 
 /* Top */
@@ -87,6 +93,7 @@ h2 {
 
 /* Members */
 .members {
+  margin: 90px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -110,12 +117,39 @@ h2 {
 
 /* Dates */
 .dates p {
-  font-size: 24px;
+  width: 200px;
+  font-size: 28px;
+  margin: 4px auto;
+}
+
+.dates span {
+  font-size: 14px;
+}
+
+.dates small {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
 }
 
 /* Access */
+.access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .map {
   width: 100%;
+}
+
+.access a,
+.access p {
+  width: 320px;
+  font-size: 18px;
+  margin: 4px 0;
+}
+.access p {
+  color: #111;
 }
 
 @media screen and (orientation: portrait) {
