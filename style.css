@@ -180,6 +180,10 @@ footer {
   left: 0px;
 }
 
+.film p {
+  color: coral;
+}
+
 .photo {
   height: 70%;
   margin-left: 15px;
@@ -196,7 +200,10 @@ footer {
 }
 
 .photo p {
-  color: rgb(255, 143, 38);
+  margin: 0px 8px;
+  display: inline-block;
+  color: coral;
+  border-bottom: 1px solid coral;
 }
 
 .film::before {
