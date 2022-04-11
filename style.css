@@ -14,6 +14,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+body {
+  background-color: rgb(252, 249, 244);
+}
+
 .top,
 .members {
   width: 100%;
@@ -49,7 +53,7 @@ footer {
   width: 120%; /* 幅いっぱい */
   height: 12%; /* 高さいっぱい */
   display: block; /* 高さを指定するためにブロック要素にする */
-  background-color: #fff;
+  background-color: rgb(252, 249, 244);
   filter: blur(18px);
   position: absolute;
   bottom: -35px;
@@ -115,50 +119,6 @@ footer {
   object-fit: cover;
 }
 
-/* Dates */
-.dates p {
-  width: 200px;
-  font-size: 28px;
-  margin: 4px auto;
-}
-
-.dates span {
-  font-size: 14px;
-}
-
-.dates small {
-  display: block;
-  width: 180px;
-  margin: 0 auto;
-}
-
-/* Access */
-.access {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.map {
-  width: 100%;
-}
-
-.access a,
-.access p {
-  width: 320px;
-  font-size: 18px;
-  margin: 4px 0;
-}
-.access p {
-  color: #111;
-}
-
-@media screen and (orientation: portrait) {
-  .main-visual {
-    height: 100vh;
-    /* max-height: 100vh; */
-  }
-}
-
 .film {
   height: 400px;
   background-color: #111;
@@ -212,4 +172,49 @@ footer {
 
 .film::after {
   top: 4px;
+}
+
+/* Dates */
+.dates p {
+  width: 200px;
+  font-size: 28px;
+  margin: 4px auto;
+}
+
+.dates span {
+  font-size: 14px;
+}
+
+.dates small {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+
+/* Access */
+.access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map {
+  width: 100%;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.access a,
+.access p {
+  width: 320px;
+  font-size: 18px;
+  margin: 4px 0;
+}
+.access p {
+  color: #111;
+}
+
+@media screen and (orientation: portrait) {
+  .main-visual {
+    height: 100vh;
+    /* max-height: 100vh; */
+  }
 }
