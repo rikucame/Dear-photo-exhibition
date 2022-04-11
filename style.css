@@ -147,6 +147,7 @@ footer {
 .photo {
   height: 70%;
   margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 .photo img {
