@@ -64,7 +64,7 @@ footer {
 .about::before {
   content: "";
   position: absolute;
-  background-image: url("./iamges/latter.png");
+  background-image: url("./images/latter.png");
   background-size: contain;
   width: 80px;
   height: 80px;
@@ -76,7 +76,7 @@ footer {
 .about::after {
   content: "";
   position: absolute;
-  background-image: url("./iamges/heart-sh10.png");
+  background-image: url("./images/heart-sh10.png");
   background-size: contain;
   width: 80px;
   height: 80px;
@@ -174,7 +174,7 @@ footer {
   position: absolute;
   width: 2015px;
   height: 16px;
-  background-image: url("./iamges/white-dot.jpg");
+  background-image: url("./images/white-dot.jpg");
   background-repeat: repeat-x;
   background-size: contain;
   left: 0px;
