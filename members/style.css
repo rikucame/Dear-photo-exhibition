@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif !important;
 }
 
 section {
@@ -14,7 +15,16 @@ a {
 }
 
 h2 {
+  width: 100%;
   font-size: 28px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 header {
@@ -61,11 +71,30 @@ header {
 }
 
 .detail {
+  margin: 50px 5% 40px;
   margin-top: 50px;
+  width: 90%;
   min-height: 500px;
 }
 
 .coming {
   margin: 30px 0;
   font-size: 20px;
+}
+
+.size-small {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.center {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.detail img {
+  width: 70%;
+  margin: 20px 0;
 }
