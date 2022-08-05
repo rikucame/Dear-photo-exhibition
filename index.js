@@ -23,7 +23,7 @@ const displayTodaysExhibitors = () => {
 
   const today = new Date().getDay();
   const maxNum = today - 5;
-  members.slice(0, 10).map((member) => {
+  members.slice(0, maxNum).map((member) => {
     mainVisualsWrap.prepend(generateMainVisual(member));
   });
 };
