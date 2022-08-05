@@ -241,6 +241,12 @@ details[open] summary::after {
   content: "CLOSE";
 }
 
+.details-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 details[open] .details-contents {
   animation: fadeIn 0.6s ease;
 }
@@ -256,8 +262,8 @@ details[open] .details-contents {
   }
 }
 
-.fram-wrap {
-  width: 100%;
+.frame-wrap {
+  width: fit-content;
 }
 
 .frame {
@@ -268,14 +274,22 @@ details[open] .details-contents {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   padding: 40px;
-  width: calc(100% - 96px);
-  height: auto;
   position: relative;
 }
 
-.main-visual-image {
-  width: 100%;
+.main-visual-image-horizontal {
+  width: 60vw;
+  max-width: 500px;
+  border: 6px solid;
+  border-color: #cdcdcd #e6e6e6 #f0f0f0 #c0c0c0;
+  color: transparent;
+}
+
+.main-visual-image-vertical {
+  height: 60vw;
+  max-height: 500px;
   border: 6px solid;
   border-color: #cdcdcd #e6e6e6 #f0f0f0 #c0c0c0;
   color: transparent;
@@ -319,9 +333,11 @@ details[open] .details-contents {
 }
 
 .name {
+  width: 100%;
+  display: inline-block;
   font-size: 16px;
   text-align: end;
-  margin: 8px 0 20px;
+  margin: 8px 0 30px;
 }
 
 /* Dates */
