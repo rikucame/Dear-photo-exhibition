@@ -22,8 +22,8 @@ const displayTodaysExhibitors = () => {
   const mainVisualsWrap = document.getElementById("mainVisualsWrap");
 
   const today = new Date().getDay();
-  const maxNum = today - 3;
-  members.slice(0, 10).map((member) => {
+  const maxNum = today - 5;
+  members.slice(0, maxNum).map((member) => {
     mainVisualsWrap.prepend(generateMainVisual(member));
   });
 };
@@ -102,7 +102,7 @@ const members = [
   },
   {
     name: "yugra",
-    displayName: "yu",
+    displayName: "Yuki Okubo",
     mainVisual: "yugra.jpg",
     direction: "vertical",
   },
