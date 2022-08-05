@@ -279,7 +279,7 @@ details[open] .details-contents {
   position: relative;
 }
 
-.main-visual-image {
+.main-visual-image-horizontal {
   width: 60vw;
   border: 6px solid;
   border-color: #cdcdcd #e6e6e6 #f0f0f0 #c0c0c0;
