@@ -67,7 +67,7 @@ const members = [
   {
     name: "suto",
     displayName: "すとう しゅんすけ",
-    mainVisual: "suto.jpeg",
+    mainVisual: "suto.jpg",
     direction: "vertical",
   },
   {
@@ -79,7 +79,7 @@ const members = [
   {
     name: "aokichi",
     displayName: "あおきち",
-    mainVisual: "aokichi.jpeg",
+    mainVisual: "aokichi.jpg",
     direction: "vertical",
   },
   {
@@ -109,7 +109,7 @@ const members = [
   {
     name: "suzuna",
     displayName: "すずな",
-    mainVisual: "suzuna.jpeg",
+    mainVisual: "suzuna.jpg",
     direction: "horizontal",
   },
   {
