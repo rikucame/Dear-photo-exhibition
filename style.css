@@ -281,6 +281,7 @@ details[open] .details-contents {
 
 .main-visual-image-horizontal {
   width: 60vw;
+  max-width: 500px;
   border: 6px solid;
   border-color: #cdcdcd #e6e6e6 #f0f0f0 #c0c0c0;
   color: transparent;
@@ -288,6 +289,7 @@ details[open] .details-contents {
 
 .main-visual-image-vertical {
   height: 60vw;
+  max-height: 500px;
   border: 6px solid;
   border-color: #cdcdcd #e6e6e6 #f0f0f0 #c0c0c0;
   color: transparent;
@@ -335,7 +337,7 @@ details[open] .details-contents {
   display: inline-block;
   font-size: 16px;
   text-align: end;
-  margin: 8px 0 20px;
+  margin: 8px 0 30px;
 }
 
 /* Dates */
