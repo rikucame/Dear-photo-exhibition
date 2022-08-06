@@ -23,7 +23,6 @@ window.onload = () => {
 const displayTodaysExhibitors = () => {
   const mainVisualsWrap = document.getElementById("mainVisualsWrap");
 
-  console.log(today);
   const maxNum = today - 5;
   members.slice(0, maxNum).map((member) => {
     mainVisualsWrap.prepend(generateMainVisual(member));
