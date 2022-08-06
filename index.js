@@ -21,9 +21,10 @@ window.onload = () => {
 const displayTodaysExhibitors = () => {
   const mainVisualsWrap = document.getElementById("mainVisualsWrap");
 
-  const today = new Date().getDay();
+  const today = new Date();
+  console.log(today.getDay());
   const maxNum = today - 5;
-  members.slice(0, maxNum).map((member) => {
+  members.slice(0, 2).map((member) => {
     mainVisualsWrap.prepend(generateMainVisual(member));
   });
 };
