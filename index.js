@@ -1,3 +1,5 @@
+const today = new Date().getDate();
+
 window.onload = () => {
   const leftArrow = document.getElementById("left-arrow");
   const rightArrow = document.getElementById("right-arrow");
@@ -21,10 +23,8 @@ window.onload = () => {
 const displayTodaysExhibitors = () => {
   const mainVisualsWrap = document.getElementById("mainVisualsWrap");
 
-  const today = new Date();
-  console.log(today.getDay());
   const maxNum = today - 5;
-  members.slice(0, 2).map((member) => {
+  members.slice(0, maxNum).map((member) => {
     mainVisualsWrap.prepend(generateMainVisual(member));
   });
 };
