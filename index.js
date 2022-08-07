@@ -62,7 +62,7 @@ const members = [
 ];
 
 const today = new Date().getDate();
-const mainVisuals = members.slice(0, today - 5).map((data) => {
+const mainVisuals = members.slice(0, today - 6).map((data) => {
   // 要素生成
   const wrap = document.createElement("div");
   const link = document.createElement("a");
