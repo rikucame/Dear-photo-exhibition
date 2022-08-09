@@ -15,7 +15,7 @@ const members = [
     name: "reo",
     displayName: "Reo",
     mainVisual: "reo.jpg",
-    direction: "horizontal",
+    direction: "vertical",
   },
   {
     name: "aokichi",
